@@ -51,10 +51,10 @@ app.controller('MainController', function($scope) {
 			return player;
 		}
 	}
-
+//This code suxxxxx
 	function getComputerPlay() {
 		var plays = ['rock', 'paper', 'scissors'];
 		var play = plays[Math.floor(Math.random() * plays.length)];
 		return play;
-	};
+	}
 });
