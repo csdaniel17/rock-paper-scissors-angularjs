@@ -56,5 +56,5 @@ app.controller('MainController', function($scope) {
 		var plays = ['rock', 'paper', 'scissors'];
 		var play = plays[Math.floor(Math.random() * plays.length)];
 		return play;
-	};
+	}
 });
